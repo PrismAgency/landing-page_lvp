@@ -50,7 +50,8 @@
                     . '<br /><p><button type=submit>Envoyer</button></p>';
                 }elseif($_SERVER[REQUEST_URI] == '/succes' or (isset($_GET['send']) && !empty($_GET['send']))){
                     echo '<p>Votre adresse e-mail a bien été enregistré'
-                    . '<br />Félicitations, vous allez être avertis de la sortie du site prochainement</p>';
+                    . '<br />Prochainement, vous serez avertis de la sortie du site'
+                            . '<br />« La Vague Pourpre »</p>';
                 
                 }else{ echo '<input placeholder="E-mail" type="email" name="email" id="email" /><p><button type=submit>Envoyer</button></p>';}?>
             </p>
