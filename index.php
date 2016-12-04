@@ -34,8 +34,7 @@
       <h1 id="logo">
         <a href="index.html"><img src="images/logo.png" title="logo la vague pourpre" alt="logo la vague pourpre"></a>
       </h1>
-    </header>
-      
+    </header>      
       <!-- container -->
     <div id="content" class="container-fluid">
       <section>
@@ -50,7 +49,8 @@
                     echo '<input placeholder="E-mail" type="email" name="email" id="email" /><p><span>Veuillez-remplir le champ e-mail</span></p>'
                     . '<br /><p><button type=submit>Envoyer</button></p>';
                 }elseif($_SERVER[REQUEST_URI] == '/succes' or (isset($_GET['send']) && !empty($_GET['send']))){
-                    echo '<p>Votre adresse e-mail a bien été envoyé</p>';
+                    echo '<p>Votre adresse e-mail a bien été enregistré'
+                    . '<br />Félicitations, vous allez être avertis de la sortie du site prochainement</p>';
                 
                 }else{ echo '<input placeholder="E-mail" type="email" name="email" id="email" /><p><button type=submit>Envoyer</button></p>';}?>
             </p>
