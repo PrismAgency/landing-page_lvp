@@ -1,0 +1,158 @@
+/* font */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,300italic,300,400italic,500,500italic,700,700italic,900);
+
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+
+html {
+  display:table;
+}
+
+body {
+  display:table-cell;
+  vertical-align:middle;
+  background-color: #000000;
+  background-image: url('../images/landing-page.png');
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a, a:hover, a:focus{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.35s ease-in-out 0s;
+  -webkit-transition: all 0.35s ease-in-out 0s;
+  -moz-transition: all 0.35s ease-in-out 0s;
+  -o-transition: all 0.35s ease-in-out 0s;
+}
+
+p{
+	margin: 0px;
+	text-align: center;
+}
+
+
+/* header */
+
+#header-principal{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+header h1{
+	margin: 0px;
+}
+
+header h1 a{
+	display: inline-block;
+}
+
+.logo{
+	font-size: 20px;
+	height: auto;
+	display: inline-block;
+}
+
+#content {
+  text-align: center;
+  font-weight: 300;
+}
+
+#logo img {
+    width: 72px;
+}
+
+/* footer */
+
+#reseaux-soc {
+    color: #ffffff;
+}
+
+#reseaux-soc .fa {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+
+#description {
+  margin-bottom: 28px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 300;
+}
+
+#description span{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#email{
+    background:rgba(0,0,0,0.2);
+    border: 1px solid #333333;
+    border-radius: 300px;
+    margin-bottom: 20px;
+    padding: 12px 28px;
+    max-width: 340px;
+}
+
+#content button{
+    border-radius: 300px;
+    background-color: #ed0808;
+    border: 0px;
+    padding: 12px;
+    width: 170px;
+    max-width: 170px;
+}
+
+#content button:hover{
+  opacity: 0.4;
+}
+
+#btn:hover{
+	opacity: 0.6;
+}
+
+.fakeloader .fl img {
+    width: 350px;
+}
+
+#footer-principal{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+
+/**********************************************************               **********************************************************/
+/********************************************************** media queries **********************************************************/
+/**********************************************************               **********************************************************/
+
+
+@media only screen and (max-width : 1200px) {}
+
+@media only screen and (max-width : 991px) {}
+
+@media only screen and (max-width : 768px) {}
+
+@media only screen and (max-width : 480px) {
+
+	#description {
+  		padding: 24px 0px;
+  		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width : 320px) {}
+
+
